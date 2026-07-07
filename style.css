@@ -773,3 +773,36 @@ h1,h2,h3,h4{
   }
 
 }
+/* Исправление мобильной кнопки в шапке */
+
+.header-cta {
+  max-width: 100%;
+  flex-shrink: 1;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+
+  .header-inner {
+    gap: 10px;
+  }
+
+  .header-cta {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+#dgisBtn {
+  background: linear-gradient(160deg, #232323, var(--dark) 60%);
+  color: #fff;
+  border-color: transparent;
+  }
